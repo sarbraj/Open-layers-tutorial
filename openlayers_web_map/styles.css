@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map_app {
+    height: 100vh;
+    width: 100vw;
+}
+
+.fullscreen {
+    /* background-color: red;
+    width: 30px;
+    height: 30px; */
+}
+
+.mousePosition{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #aad3df;
+    padding: 1% 2%;
+    border: solid 1px #000;
+}

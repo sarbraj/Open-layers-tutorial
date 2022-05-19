@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open-Layer</title>
+
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/build/ol.js"></script>
+    <script src="./6.14.1-dist/ol.js"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/css/ol.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="text/javascript" src="https://stamen-maps.a.ssl.fastly.net/js/tile.stamen.js?v1.3.0"></script>
+
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/pure-min.css"
+        integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="grid-1">
+            <div class="sidebar">
+                <div class="layer-selector">
+                    <h2>Base layers</h2>
+
+                    <div>
+                        <input class="baselayer-selector-radio" type="radio" id="OMSStandard" name="basemaps"
+                            value="OMSStandard" checked>
+                        <label for="OMSStandard">OSM Standard</label>
+                    </div>
+
+                    <div>
+                        <input class="baselayer-selector-radio" type="radio" id="Humanitarian" name="basemaps"
+                            value="Humanitarian">
+                        <label for="Humanitarian">Humanitarian</label>
+                    </div>
+
+                    <div>
+                        <input class="baselayer-selector-radio" type="radio" id="BingMap" name="basemaps"
+                            value="BingMap">
+                        <label for="BingMap">Bing Map</label>
+                    </div>
+
+                    <div>
+                        <input class="baselayer-selector-radio" type="radio" id="Carto" name="basemaps" value="Carto">
+                        <label for="Carto">Carto DB</label>
+                    </div>
+
+                    <div>
+                        <input class="baselayer-selector-radio" type="radio" id="Stamen" name="basemaps" value="Stamen">
+                        <label for="Stamen">Stamen</label>
+                    </div>
+                </div>
+                
+                <div class="raster-toggle-list">
+                    <h3>Raster Toggle</h3>
+                    <input type="checkbox" class="raster-toggle" name="rasterTileLayerCB" value="ArcGIS"> ArcGIS<br>
+                    <input type="checkbox" class="raster-toggle" name="rasterTileLayerCB" value="noaaWMSLayer"> NOAA-WMS<br>
+                    <input type="checkbox" class="raster-toggle" name="rasterTileLayerCB" value="Debug"> Tile Debug<br>
+        
+                </div>
+
+                <div class="static-image-toggles">
+                    <h3>Static Image toggle</h3>
+                    <input type="checkbox" class="static-image" name="StaticImage" value="HumanitarianStaticImage"> Humanitarian Static Image <br>
+                </div>
+
+            </div>
+        </div>
+        <div class="grid-2">
+            <div id="app"></div>
+        </div>
+    </div>
+</body>
+
+</html>

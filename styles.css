@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    height: 100vh;
+    /* width: 100vw;
+    max-width: 100vw; */
+}
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20vw calc(80vw - 15px);
+    grid-template-rows: 100vw;
+}
+
+.sidebar {
+    margin-left: 15px
+}

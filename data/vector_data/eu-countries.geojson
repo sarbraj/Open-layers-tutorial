@@ -1,0 +1,243 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Algeria",
+                "additionalInformation": "Lorem Ipsum is simply dummy text of the"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.28515625,
+                    30.14512718337613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Libya",
+                "additionalInformation": "has been the industry's standard dummy text"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.28125,
+                    27.371767300523047
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Egypt",
+                "additionalInformation": "took a galley of type and scrambled it to make a"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.70703125,
+                    26.745610382199022
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sudan",
+                "additionalInformation": "centuries, but also the leap into electronic"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.179687499999996,
+                    16.636191878397664
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Chad",
+                "additionalInformation": "was popularised in the 1960s with the release of"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    18.984375,
+                    15.961329081596647
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Niger",
+                "additionalInformation": "passages, and more recently with desktop"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    8.7890625,
+                    17.14079039331665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mali",
+                "additionalInformation": "including versions of Lorem Ipsum."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -1.58203125,
+                    17.14079039331665
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Western Sahara",
+                "additionalInformation": "Contrary to popular belief, Lorem Ipsum is not"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12.65625,
+                    25.005972656239187
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mauritania",
+                "additionalInformation": "simply random text. It has roots in a piece of"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12.12890625,
+                    18.312810846425442
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sengal",
+                "additionalInformation": "over 2000 years old. Richard McClintock, a Latin"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -14.765625,
+                    15.114552871944115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ehiopia",
+                "additionalInformation": "looked up one of the more obscure Latin words"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    40.78125,
+                    9.102096738726456
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kenya",
+                "additionalInformation": "going through the cites of the word in classical"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    38.67187499999999,
+                    1.2303741774326145
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tanzania",
+                "additionalInformation": "Lorem Ipsum comes from sections 1.10.32 and"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    35.5078125,
+                    -5.615985819155327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Zambia",
+                "additionalInformation": "Extremes of Good and Evil) by Cicero, written in"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    32.34375,
+                    -11.867350911459294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Zimbabwe",
+                "additionalInformation": "ethics, very popular during the Renaissance. The"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    29.53125,
+                    -18.646245142670598
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Angola",
+                "additionalInformation": "amet..\", comes from a line in section 1.10.32."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.05078125,
+                    -12.211180191503997
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Congo",
+                "additionalInformation": "the 1500s is reproduced below for those"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.62109375,
+                    -2.108898659243126
+                ]
+            }
+        }
+    ]
+}

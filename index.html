@@ -19,14 +19,15 @@
         integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
 
 
-
+    <!-- Map tiler styles -->
+    <script src="https://cdn.maptiler.com/ol-mapbox-style/v6.8.3/olms.js"></script>
 </head>
 
 <body>
-    <div class="grid-container">
-        <div class="grid-1">
+    <div class="grid-container container-fluid">
+        <div class="grid-1 row">
             <div class="sidebar">
-                <div class="layer-selector">
+                <div class="layer-selector col pb-4">
                     <h2>Base layers</h2>
 
                     <div>
@@ -57,18 +58,40 @@
                         <label for="Stamen">Stamen</label>
                     </div>
                 </div>
-                
-                <div class="raster-toggle-list">
+
+                <div class="raster-toggle-list col pb-4">
                     <h3>Raster Toggle</h3>
                     <input type="checkbox" class="raster-toggle" name="rasterTileLayerCB" value="ArcGIS"> ArcGIS<br>
-                    <input type="checkbox" class="raster-toggle" name="rasterTileLayerCB" value="noaaWMSLayer"> NOAA-WMS<br>
+                    <input type="checkbox" class="raster-toggle" name="rasterTileLayerCB" value="noaaWMSLayer">
+                    NOAA-WMS<br>
                     <input type="checkbox" class="raster-toggle" name="rasterTileLayerCB" value="Debug"> Tile Debug<br>
-        
+                    <input type="checkbox" class="raster-toggle" name="rasterTileLayerCB" value="heatmaplayer"> Facebook
+                    users heatmap<br>
+                    <input type="checkbox" class="raster-toggle" name="rasterTileLayerCB" value="GraticuleLayer">
+                    Graticule<br>
+                    <input type="checkbox" class="raster-toggle" name="rasterTileLayerCB" value="AfricanCountries">
+                    African Countries<br>
+
                 </div>
 
-                <div class="static-image-toggles">
+                <div class="static-image-toggles col pb-4">
                     <h3>Static Image toggle</h3>
-                    <input type="checkbox" class="static-image" name="StaticImage" value="HumanitarianStaticImage"> Humanitarian Static Image <br>
+                    <input type="checkbox" class="static-image" name="StaticImage" value="HumanitarianStaticImage">
+                    Humanitarian Static Image <br>
+                </div>
+
+                <div class="vector-tile-layer-style col pb-4" id="vector-layers">
+                    <h3>Vector Tile Layer</h3>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input vector-layer-switcher" type="checkbox" id="openStreetVectorTile"
+                            value="openStreetVectorTile">
+                        <label class="form-check-label" for="openStreetVectorTile">OSM Vector Layer</label>
+                    </div>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input vector-layer-switcher" type="checkbox" id="euvectorlayer"
+                            value="euvectorlayer">
+                        <label class="form-check-label" for="euvectorlayer">EU Vector Layer</label>
+                    </div>
                 </div>
 
             </div>
@@ -77,6 +100,15 @@
             <div id="app"></div>
         </div>
     </div>
+    <div class="overlay-container">
+        <span class="overlay-text" id="feature-name"></span><br/>
+        <span class="overlay-text" id="feature-info"></span><br/>
+    </div>
 </body>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
 </html>
